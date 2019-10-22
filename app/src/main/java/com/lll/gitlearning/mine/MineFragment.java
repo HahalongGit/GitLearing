@@ -1,5 +1,7 @@
 package com.lll.gitlearning.mine;
 
+import android.util.Log;
+
 import com.lll.gitlearning.R;
 import com.lll.gitlearning.base.BaseFragment;
 
@@ -11,6 +13,8 @@ import com.lll.gitlearning.base.BaseFragment;
  */
 public class MineFragment extends BaseFragment {
 
+    private static final String TAG = "MineFragment";
+
     @Override
     protected int getLayoutId() {
         return R.layout.fragment_mine_layout;
@@ -18,6 +22,7 @@ public class MineFragment extends BaseFragment {
 
     @Override
     protected void initView() {
-
+        Log.e(TAG,"");
+        Log.e(TAG,"第二次修改");
     }
 }

@@ -7,4 +7,12 @@ package com.lll.gitlearning.mine.impl;
  * @date 2019/10/22
  */
 public class MinePresenter {
+
+    private static final String TAG = "MinePresenter";
+
+    void setData() {
+
+    }
+
 }
+

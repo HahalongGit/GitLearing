@@ -7,6 +7,7 @@ import android.app.Application;
  *
  * @author runningDigua
  * @date 2019/10/21
+ * dev_1.0.2版本Applicaiton
  */
 public class Applicaiton extends Application {
 

@@ -8,5 +8,13 @@ package com.lll.gitlearning;
  * @date 16.5.21
  */
 class TestBranch3 {
-    
+    private String name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
